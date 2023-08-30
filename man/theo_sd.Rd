@@ -9,12 +9,12 @@ A data frame with 144 rows by 7 columns
 
 \describe{
 \item{ID}{Subject ID}
-\item{TIME}{Time (hrs)}
-\item{DV}{Dependent Variable, theophylline concentration}
-\item{AMT}{Dose Amount/kg}
-\item{EVID}{rxode2/nlmixr2 event ID (not NONMEM's)}
+\item{TIME}{Time (hr)}
+\item{DV}{Dependent Variable, theophylline concentration (mg/L)}
+\item{AMT}{Dose Amount (mg)}
+\item{EVID}{rxode2/nlmixr2 event ID (not NONMEM event IDs)}
 \item{CMT}{Compartment Number}
-\item{WT}{Weight (kg)}
+\item{WT}{Body weight (kg)}
 }
 }
 \source{
@@ -44,6 +44,7 @@ Other nlmixr2 datasets:
 \code{\link{Wang2007}},
 \code{\link{mavoglurant}},
 \code{\link{nimoData}},
+\code{\link{nmtest}},
 \code{\link{pheno_sd}},
 \code{\link{rats}},
 \code{\link{theo_md}},

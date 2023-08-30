@@ -16,7 +16,7 @@ A data frame with 519 rows and 9 columns
 \item{evid}{Event identifier}
 \item{wt}{Weight (kg)}
 \item{age}{Age (yr)}
-\item{sex}{Gender (male or female, factor)}
+\item{sex}{Sex (male or female, factor)}
 }
 }
 \source{
@@ -55,6 +55,7 @@ Other nlmixr2 datasets:
 \code{\link{Wang2007}},
 \code{\link{mavoglurant}},
 \code{\link{nimoData}},
+\code{\link{nmtest}},
 \code{\link{pheno_sd}},
 \code{\link{rats}},
 \code{\link{theo_md}},

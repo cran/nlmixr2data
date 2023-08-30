@@ -1,6 +1,6 @@
 Package: nlmixr2data
 Title: Nonlinear Mixed Effects Models in Population PK/PD, Data
-Version: 2.0.7
+Version: 2.0.8
 Authors@R: c(person("Matthew","Fidler",
       role = c("aut", "cre"), email = "matthew.fidler@gmail.com",
       comment=c(ORCID="0000-0001-8538-6691")),
@@ -28,14 +28,14 @@ Description: Datasets for 'nlmixr2' and 'rxode2'. 'nlmixr2' is used for fitting 
     (Wang, Hallow, and James 2015 <doi:10.1002/psp4.12052>).
 License: GPL (>= 3)
 Encoding: UTF-8
-RoxygenNote: 7.1.2
+RoxygenNote: 7.2.3
 Depends: R (>= 2.10)
 LazyData: true
 BugReports: https://github.com/nlmixr2/nlmixr2data/issues/
 URL: https://nlmixr2.github.io/nlmixr2data/,
         https://github.com/nlmixr2/nlmixr2data/
 NeedsCompilation: no
-Packaged: 2022-04-20 16:06:32 UTC; matt
+Packaged: 2023-08-30 22:55:52 UTC; matt
 Author: Matthew Fidler [aut, cre] (<https://orcid.org/0000-0001-8538-6691>),
   Rik Schoemaker [ctb] (<https://orcid.org/0000-0002-7538-3005>),
   Thierry Wendling [ctb],
@@ -50,4 +50,4 @@ Author: Matthew Fidler [aut, cre] (<https://orcid.org/0000-0001-8538-6691>),
   Wenping Wang [aut]
 Maintainer: Matthew Fidler <matthew.fidler@gmail.com>
 Repository: CRAN
-Date/Publication: 2022-04-22 09:10:05 UTC
+Date/Publication: 2023-08-30 23:30:02 UTC
